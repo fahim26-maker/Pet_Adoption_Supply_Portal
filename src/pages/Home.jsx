@@ -1,9 +1,56 @@
 import React from 'react';
+import { Link } from 'react-router';
+const categories = [
+  {
+    name: "Pets (Adoption)",
+    icon: "🐶",
+    route: "/category-filtered-product/Pets",
+    bg: "bg-blue-100",
+  },
+  {
+    name: "Pet Food",
+    icon: "🍖",
+    route: "/category-filtered-product/Pet%20Food",
+    bg: "bg-green-100",
+  },
+  {
+    name: "Accessories",
+    icon: "🧸",
+    route: "/category-filtered-product/Accessories",
+    bg: "bg-yellow-100",
+  },
+  {
+    name: "Pet Care Products",
+    icon: "💊",
+    route: "/category-filtered-product/Pet%20Care%20Products",
+    bg: "bg-pink-100",
+  },
+];
 
 const Home = () => {
     return (
         <div>
-            <h1></h1>
+             <section className="py-10 px-4 max-w-6xl mx-auto">
+      <h2 className="text-2xl font-bold text-center mb-8 text-orange-400">
+        Browse by Category
+      </h2>
+
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        {categories.map((cat) => (
+          <Link
+            key={cat.name}
+            to={cat.route}
+            className={`flex flex-col items-center justify-center p-6 rounded-xl shadow-md hover:shadow-lg transition transform hover:-translate-y-1 ${cat.bg}`}
+          >
+            <span className="text-5xl mb-3">{cat.icon}</span>
+            <h3 className="text-lg font-semibold text-gray-800 text-center">
+              {cat.name}
+            </h3>
+          </Link>
+        ))}
+      </div>
+    </section>
+
         </div>
     );
 };

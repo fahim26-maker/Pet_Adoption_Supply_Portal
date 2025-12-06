@@ -1,6 +1,6 @@
-import { createUserWithEmailAndPassword, getAuth, onAuthStateChanged, signInWithEmailAndPassword, signOut, updateProfile } from "firebase/auth/cordova";
+import { createUserWithEmailAndPassword, getAuth, onAuthStateChanged, signInWithEmailAndPassword, signOut, updateProfile } from "firebase/auth";
 import { createContext, useEffect, useState } from "react";
-import app from '../fireBase/firebase.config';
+import app from "../firebase/firebase.config";
 export const AuthContext = createContext();
 
 const auth = getAuth(app)
