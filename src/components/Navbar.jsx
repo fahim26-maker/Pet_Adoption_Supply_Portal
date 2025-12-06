@@ -26,9 +26,9 @@ const Navbar = () => {
             </div>
             <div className=' space-x-2'>
                 <Link to={"/"}><button
-                 className="btn btn-soft btn-warning btn-xs sm:btn-sm md:btn-md lg:btn-xl xl:btn-lg">Home</button></Link>
+                 className="btn btn-soft btn-warning btn-xs sm:btn-sm md:btn-md lg:btn-md xl:btn-md">Home</button></Link>
                 <Link><button
-                 className="btn btn-soft btn-warning btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-lg">Pets & Supplies</button></Link>
+                 className="btn btn-soft btn-warning btn-xs sm:btn-sm md:btn-md lg:btn-md xl:btn-md">Pets & Supplies</button></Link>
             </div>
             <div className=' space-x-2 flex'>
                 <img
@@ -36,14 +36,15 @@ const Navbar = () => {
   src={user ? user.photoURL : profile}
   alt="User profile"
   title={user ? user.displayName : "Guest User"}/>
-                {user ? <button onClick={handleLogOut} className="btn btn-neutral">Logout</button> :  <Link to={"/auth/login"}><button className="btn bg-white text-orange-400 border-[#e5e5e5]  btn-xs sm:btn-sm md:btn-md lg:btn-xl xl:btn-lg">
+                {user ? <button onClick={handleLogOut} className="btn btn-neutral">Logout</button> :  <><Link to={"/auth/login"}><button className="btn bg-white text-orange-400 border-[#e5e5e5]  btn-xs sm:btn-sm md:btn-md lg:btn-md xl:btn-md">
                   <svg aria-label="Email icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g strokeLinejoin="round" strokeLinecap="round" strokeWidth="2" fill="none" stroke="black"><rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></g></svg>
                   Login
-                </button></Link>}
-                                <Link to={"/auth/register"}><button className="btn bg-white text-orange-400 border-[#e5e5e5]  btn-xs sm:btn-sm md:btn-md lg:btn-xl xl:btn-lg">
+                </button></Link>
+                <Link to={"/auth/register"}><button className="btn bg-white text-orange-400 border-[#e5e5e5]  btn-xs sm:btn-sm md:btn-md lg:btn-md xl:btn-md">
                   <svg aria-label="Email icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g strokeLinejoin="round" strokeLinecap="round" strokeWidth="2" fill="none" stroke="black"><rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></g></svg>
                   Register
-                </button></Link>
+                </button></Link></>}
+                                
             </div>
         </div>
     );
