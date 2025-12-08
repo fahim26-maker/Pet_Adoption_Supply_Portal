@@ -1,58 +1,58 @@
 [
   {
     "id": 1,
-    "image": "https://i.postimg.cc/Gmd0xRYy/coco.jpg",
-    "name": "Golden Retriever Puppy",
-    "category": "Pet Adoption",
-    "price": "Free for Adoption",
+    "image": "https://i.postimg.cc/yd1NnGwG/food-1.jpg",
+    "name": "Premium Chicken Dog Food",
+    "category": "Pet Food",
+    "price": "$25",
     "location": "Dhaka, Bangladesh",
-    "detailsUrl": "/listing/1"
+    "orderUrl": "/order/1"
   },
   {
     "id": 2,
-    "image": "https://i.postimg.cc/MG3hwjLd/luna.webp",
-    "name": "German Shepherd",
-    "category": "Pet Adoption",
-    "price": "Free for Adoption",
+    "image": "https://i.postimg.cc/Jnz1jkXm/food-3.jpg",
+    "name": "Salmon Delight Cat Food",
+    "category": "Pet Food",
+    "price": "$18",
     "location": "Chittagong, Bangladesh",
-    "detailsUrl": "/listing/2"
+    "orderUrl": "/order/2"
   },
   {
     "id": 3,
-    "image": "https://i.postimg.cc/zXY4qNxt/happy_owner.jpg",
-    "name": "Beagle",
-    "category": "Pet Adoption",
-    "price": "Free for Adoption",
+    "image": "https://i.postimg.cc/yYMY2xMf/food_2.jpg",
+    "name": "Puppy Growth Formula",
+    "category": "Pet Food",
+    "price": "$22",
     "location": "Sylhet, Bangladesh",
-    "detailsUrl": "/listing/3"
+    "orderUrl": "/order/3"
   },
   {
     "id": 4,
-    "image": "https://i.postimg.cc/KcqmQPgS/support-care-happy-family-men-600nw-2438627073.webp",
-    "name": "Labrador Retriever",
-    "category": "Pet Adoption",
-    "price": "Free for Adoption",
+    "image": "https://i.postimg.cc/Jnz1jkXm/food-3.jpg",
+    "name": "Kitten Nutrition Mix",
+    "category": "Pet Food",
+    "price": "$20",
     "location": "Khulna, Bangladesh",
-    "detailsUrl": "/listing/4"
+    "orderUrl": "/order/4"
   },
   {
     "id": 5,
-    "image": "https://i.postimg.cc/fLWhfyzk/pet-ad-3.jpg",
-    "name": "Pug",
-    "category": "Pet Adoption",
-    "price": "Free for Adoption",
+    "image": "https://i.postimg.cc/YC2k5FXR/food-4.jpg",
+    "name": "Crunchy Dog Treats",
+    "category": "Pet Food",
+    "price": "$10",
     "location": "Rajshahi, Bangladesh",
-    "detailsUrl": "/listing/5"
+    "orderUrl": "/order/5"
   },
   {
-    "id": 6,
-    "image": "https://i.postimg.cc/5tbcfyFD/dog-puppy-on-garden-royalty-free-image-1586966191.avif",
-    "name": "Shih Tzu",
-    "category": "Pet Adoption",
-    "price": "Free for Adoption",
-    "location": "Barisal, Bangladesh",
-    "detailsUrl": "/listing/6"
-  }
+  "id": 6,
+  "image": "https://i.postimg.cc/XvyPm70x/food-5.jpg",
+  "name": "Organic Lamb & Rice Dog Food",
+  "category": "Pet Food",
+  "price": "$28",
+  "location": "Mymensingh, Bangladesh",
+  "orderUrl": "/order/6"
+}
 ]
 
       

@@ -20,7 +20,7 @@ const AdoptedCards = ({adopted}) => {
         <p className="text-sm text-gray-600">📍 {adopted.location}</p>
         <div className="card-actions justify-end mt-4">
           <Link>
-            <button className="btn btn-primary btn-sm">See Details</button>
+            <button className="inline-block btn bg-yellow-500 hover:bg-yellow-600 text-white font-semibold btn-sm transition ">See Details</button>
           </Link>
         </div>
       </div>
