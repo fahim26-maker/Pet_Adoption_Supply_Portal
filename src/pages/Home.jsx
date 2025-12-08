@@ -22,7 +22,7 @@ const categories = [
   {
     name: "Pet Care Products",
     icon: "💊",
-    route: "/category-filtered-product/Pet%20Care%20Products",
+    route: "pet-care",
     bg: "bg-pink-100",
   },
 ];
