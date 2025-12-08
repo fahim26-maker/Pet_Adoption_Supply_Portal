@@ -35,7 +35,8 @@ const router = createBrowserRouter([
       },
       {
         path: "pet-adoption",
-        element: <PetAdoption></PetAdoption>
+        element: <PetAdoption></PetAdoption>,
+        loader: () => fetch('http://localhost:3000/pet-adoption')
       },
       {
         path: "pet-food",
