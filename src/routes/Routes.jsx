@@ -49,7 +49,8 @@ const router = createBrowserRouter([
       },
       {
         path: "accessories",
-        element: <Accessories></Accessories>
+        element: <Accessories></Accessories>,
+        loader: () => fetch('http://localhost:3000/acc')
       }
     ]
   },

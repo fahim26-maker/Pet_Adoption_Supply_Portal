@@ -1,58 +1,58 @@
 [
   {
     "id": 1,
-    "image": "https://i.postimg.cc/yd1NnGwG/food-1.jpg",
-    "name": "Premium Chicken Dog Food",
-    "category": "Pet Food",
-    "price": "$25",
+    "image": "https://i.postimg.cc/XqkHNJVx/acc-1.jpg",
+    "name": "Adjustable Dog Collar",
+    "category": "Pet Accessories",
+    "price": "$12",
     "location": "Dhaka, Bangladesh",
-    "orderUrl": "/order/1"
+    "buyUrl": "/buy/1"
   },
   {
     "id": 2,
-    "image": "https://i.postimg.cc/Jnz1jkXm/food-3.jpg",
-    "name": "Salmon Delight Cat Food",
-    "category": "Pet Food",
-    "price": "$18",
+    "image": "https://i.postimg.cc/Qdt4shvv/acc-2.jpg",
+    "name": "Soft Cat Bed",
+    "category": "Pet Accessories",
+    "price": "$25",
     "location": "Chittagong, Bangladesh",
-    "orderUrl": "/order/2"
+    "buyUrl": "/buy/2"
   },
   {
     "id": 3,
-    "image": "https://i.postimg.cc/yYMY2xMf/food_2.jpg",
-    "name": "Puppy Growth Formula",
-    "category": "Pet Food",
-    "price": "$22",
+    "image": "https://i.postimg.cc/Zn4HQSr8/acc-3.jpg",
+    "name": "Durable Dog Leash",
+    "category": "Pet Accessories",
+    "price": "$15",
     "location": "Sylhet, Bangladesh",
-    "orderUrl": "/order/3"
+    "buyUrl": "/buy/3"
   },
   {
     "id": 4,
-    "image": "https://i.postimg.cc/Jnz1jkXm/food-3.jpg",
-    "name": "Kitten Nutrition Mix",
-    "category": "Pet Food",
-    "price": "$20",
+    "image": "https://i.postimg.cc/zXd7x43X/acc-4.jpg",
+    "name": "Portable Pet Carrier",
+    "category": "Pet Accessories",
+    "price": "$40",
     "location": "Khulna, Bangladesh",
-    "orderUrl": "/order/4"
+    "buyUrl": "/buy/4"
   },
   {
     "id": 5,
-    "image": "https://i.postimg.cc/YC2k5FXR/food-4.jpg",
-    "name": "Crunchy Dog Treats",
-    "category": "Pet Food",
-    "price": "$10",
+    "image": "https://i.postimg.cc/KzrrBHdv/acc-5.jpg",
+    "name": "Grooming Brush",
+    "category": "Pet Accessories",
+    "price": "$8",
     "location": "Rajshahi, Bangladesh",
-    "orderUrl": "/order/5"
+    "buyUrl": "/buy/5"
   },
   {
-  "id": 6,
-  "image": "https://i.postimg.cc/XvyPm70x/food-5.jpg",
-  "name": "Organic Lamb & Rice Dog Food",
-  "category": "Pet Food",
-  "price": "$28",
-  "location": "Mymensingh, Bangladesh",
-  "orderUrl": "/order/6"
-}
+    "id": 6,
+    "image": "https://i.postimg.cc/KzrrBHdv/acc-5.jpg",
+    "name": "Stainless Steel Pet Bowl",
+    "category": "Pet Accessories",
+    "price": "$10",
+    "location": "Barisal, Bangladesh",
+    "buyUrl": "/buy/6"
+  }
 ]
 
       
