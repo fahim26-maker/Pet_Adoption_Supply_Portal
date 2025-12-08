@@ -27,8 +27,8 @@ const Navbar = () => {
             <div className=' space-x-2'>
                 <Link to={"/"}><button
                  className="btn btn-soft btn-warning btn-xs sm:btn-sm md:btn-md lg:btn-md xl:btn-md">Home</button></Link>
-                <Link><button
-                 className="btn btn-soft btn-warning btn-xs sm:btn-sm md:btn-md lg:btn-md xl:btn-md">Pets & Supplies</button></Link>
+                <Link to={"/pet-supply"}><button
+                 className="btn btn-soft btn-warning btn-xs sm:btn-sm md:btn-md lg:btn-md xl:btn-md">Pets Supplies</button></Link>
             </div>
             <div className=' space-x-2 flex'>
                 <img

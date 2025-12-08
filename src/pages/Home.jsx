@@ -4,19 +4,19 @@ const categories = [
   {
     name: "Pets (Adoption)",
     icon: "🐶",
-    route: "/category-filtered-product/Pets",
+    route: "pet-adoption",
     bg: "bg-blue-100",
   },
   {
     name: "Pet Food",
     icon: "🍖",
-    route: "/category-filtered-product/Pet%20Food",
+    route: "pet-food",
     bg: "bg-green-100",
   },
   {
     name: "Accessories",
     icon: "🧸",
-    route: "/category-filtered-product/Accessories",
+    route: "accessories",
     bg: "bg-yellow-100",
   },
   {
@@ -36,15 +36,15 @@ const Home = () => {
       </h2>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-        {categories.map((cat) => (
+        {categories.map((dog) => (
           <Link
-            key={cat.name}
-            to={cat.route}
-            className={`flex flex-col items-center justify-center p-6 rounded-xl shadow-md hover:shadow-lg transition transform hover:-translate-y-1 ${cat.bg}`}
+            key={dog.name}
+            to={dog.route}
+            className={`flex flex-col items-center justify-center p-6 rounded-xl shadow-md hover:shadow-lg transition transform hover:-translate-y-1 ${dog.bg}`}
           >
-            <span className="text-5xl mb-3">{cat.icon}</span>
+            <span className="text-5xl mb-3">{dog.icon}</span>
             <h3 className="text-lg font-semibold text-gray-800 text-center">
-              {cat.name}
+              {dog.name}
             </h3>
           </Link>
         ))}

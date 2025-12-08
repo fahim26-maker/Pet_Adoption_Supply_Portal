@@ -5,6 +5,11 @@ import Home from "../pages/Home";
 import AuthLayout from "../layouts/AuthLayout";
 import Login from "../pages/Login";
 import Register from "../pages/Register";
+import PetSupply from "../pages/PetSupply";
+import PetAdoption from "../pages/PetAdoption";
+import PetFood from "../pages/PetFood";
+import PetCare from "../pages/PetCare";
+import Accessories from "../pages/Accessories";
 
 
 const router = createBrowserRouter([
@@ -23,6 +28,26 @@ const router = createBrowserRouter([
       {
         path: "/*",
         element: <h1>error page</h1>
+      },
+      {
+        path: "pet-supply",
+        element: <PetSupply></PetSupply>
+      },
+      {
+        path: "pet-adoption",
+        element: <PetAdoption></PetAdoption>
+      },
+      {
+        path: "pet-food",
+        element: <PetFood></PetFood>,
+      },
+      {
+        path: "pet-care",
+        element: <PetCare></PetCare>
+      },
+      {
+        path: "accessories",
+        element: <Accessories></Accessories>
       }
     ]
   },
